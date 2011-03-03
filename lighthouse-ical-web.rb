@@ -2,7 +2,8 @@ require 'sinatra'
 require 'lighthouse-ical'
 
 get '/' do
-	'TODO: Build home page'
+	'TODO: Build home page<br />'
+	'http://foobar.heroku.com/account/token/projectid'
 	# Lighthouse.account = 'your-account'
 	# Lighthouse.token = 'your-token'
 	# LighthouseIcal.create_calendar_for_project_id(123)
