@@ -1,4 +1,1 @@
-Hosted Lighthouse iCal Calendars
-================================
-
-Eventually this will be the code for a little Lighthouse iCal web site. Until then, this is the code. See it in action at http://floating-planet-892.heroku.com/.
+Eventually this will be the code for a little web site which serves up Lighthouse milestones in iCal format. [See it in action at http://lighthouse-ical.heroku.com/.](http://lighthouse-ical.heroku.com/)
