@@ -1,0 +1,51 @@
+html {
+	background-color: #fff;
+	color: #333;
+}
+
+body {
+	position: relative; /* positioning context */
+	margin: 1em auto;
+	padding: 2em 0;
+	width: 650px;
+	font-family: Palatino, Georgia, Times, 'Times New Roman', serif;
+	font-size: 18px;
+}
+
+* {
+	line-height: 1.4em;
+	text-rendering: optimizeLegibility;
+}
+
+p, blockquote {
+	text-align: justify;
+}
+
+blockquote {
+	margin-right: 0;
+	font-style: italic;
+}
+
+label {
+	float: left;
+	width: 30%;
+}
+
+input {
+	font-size: inherit;
+	font-family: inherit;
+}
+
+input[type='text'], input[type='number'] {
+	width: 60%;
+}
+
+input[type='submit'] {
+	padding: 1em;
+	margin-left: 30%;
+}
+
+#foot {
+	margin-top: 1em;
+	border-top: thin solid #333;
+}

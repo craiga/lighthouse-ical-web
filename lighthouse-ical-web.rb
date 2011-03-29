@@ -1,8 +1,13 @@
 require 'sinatra'
 require 'lighthouse-ical'
+require 'erb'
 
 get '/' do
-	'http://foobar.heroku.com/account/token/projectid'
+	erb :index
+end
+
+post '/' do
+	erb :showurl
 end
 
 get %r{^/([0-9a-zA-Z]+)/([0-9a-zA-Z]+)/(\d+)$} do

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Lighthouse iCal</title>
+	<meta name="description" content="Provides iCal calendar feeds for Lighthouse projects.">
+	<link rel="stylesheet" href="all.css" type="text/css">
+</head>
+<body>
+	<h1>Lighthouse iCal</h1>
+	<form action="/" method="post">
+		<p>
+			<label for="account">Account</label>
+			<input type="text" name="account" id="account" placeholder="Enter your account name">
+		</p>
+		<p>
+			<label for="token">Token</label>
+			<input type="text" name="token" id="token" placeholder="Visit Lighthouse to generate a token">
+		</p>
+		<p>
+			<label for="projectid">Project ID</label>
+			<input type="number" name="projectid" id="projectid" placeholder="Numeric project ID from Lighthouse">
+		</p>
+		<p>
+			<input type="submit" value="Go">
+		</p>
+	</form>
+	<div id="foot">
+   	<p>A <a href="http://craiga.id.au/">Craig Anderson</a> joint. <a href="https://github.com/craiga/lighthouse-ical-web">Get the code on GitHub.</a></p>
+   </div>
+</body>
+</html>
