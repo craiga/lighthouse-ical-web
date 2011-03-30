@@ -19,11 +19,10 @@ body {
 
 p, blockquote {
 	text-align: justify;
-	overflow-x: auto;
 }
 
-p span {
-	font-family: monospace;
+pre {
+	overflow-x: auto;
 }
 
 blockquote {

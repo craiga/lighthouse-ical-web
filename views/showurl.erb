@@ -9,7 +9,7 @@
 	<h1>Your Lighthouse iCal feed</h1>
 	<p><a href="webcal://lighthouse-ical.heroku.com/<%= @params[:account] %>/<%= @params[:token] %>/<%= @params[:projectid] %>">Subscribe in iCal</a>,
 	   or use the following URL:</p>
-	<p><span>http://<%= @request.host_with_port %>/<%= @params[:account] %>/<%= @params[:token] %>/<%= @params[:projectid] %></span>.</p>
+	<pre>http://<%= @request.host_with_port %>/<%= @params[:account] %>/<%= @params[:token] %>/<%= @params[:projectid] %></pre>
 	<div id="foot">
    	<p>A <a href="http://craiga.id.au/">Craig Anderson</a> joint. <a href="https://github.com/craiga/lighthouse-ical-web">Get the code on GitHub.</a></p>
    </div>
