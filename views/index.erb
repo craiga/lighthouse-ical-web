@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Lighthouse iCal</title>
-	<meta name="description" content="Provides iCal calendar feeds for Lighthouse projects.">
+	<title>Lighthouse iCal — iCal feeds for Lighthouse Milestones</title>
+	<meta name="description" content="Provides iCal calendar feeds for Lighthouse project milestones.">
 	<link rel="stylesheet" href="all.css" type="text/css">
 </head>
 <body>
 	<h1>Lighthouse iCal</h1>
+	<p>Enter the following details to get an iCal feed for your Lighthouse project milestones,
+	   or just build your own URL in the following format:</p>
+	<p><span>http://<%= @request.host_with_port %>/account/token/projectid</span></p>
 	<form action="/" method="post">
 		<p>
 			<label for="account">Account</label>

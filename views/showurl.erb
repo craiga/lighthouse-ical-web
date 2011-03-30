@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Lighthouse iCal</title>
-	<meta name="description" content="The #1 marketplace for graphic design, including logo design, webdesign and other design contests. Over 29,000 satisfied clients!">
+	<title>Your Lighthouse iCal feed</title>
 	<link rel="stylesheet" href="all.css" type="text/css" />
 </head>
 <body>
-	<h1>Lighthouse iCal</h1>
-	<p><a href="webcal://lighthouse-ical.heroku.com/<%= @params[:account] %>/<%= @params[:token] %><%= @params[:projectid] %>">Subscribe in iCal</a>,
-	   or use the URL
-	<kbd>http://<%= @request.host_with_port %>/<%= @params[:account] %>/<%= @params[:token] %><%= @params[:projectid] %></kbd>.</p>
+	<h1>Your Lighthouse iCal feed</h1>
+	<p><a href="webcal://lighthouse-ical.heroku.com/<%= @params[:account] %>/<%= @params[:token] %>/<%= @params[:projectid] %>">Subscribe in iCal</a>,
+	   or use the following URL:</p>
+	<p><span>http://<%= @request.host_with_port %>/<%= @params[:account] %>/<%= @params[:token] %>/<%= @params[:projectid] %></span>.</p>
 	<div id="foot">
    	<p>A <a href="http://craiga.id.au/">Craig Anderson</a> joint. <a href="https://github.com/craiga/lighthouse-ical-web">Get the code on GitHub.</a></p>
    </div>

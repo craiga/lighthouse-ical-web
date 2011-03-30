@@ -21,6 +21,10 @@ p, blockquote {
 	text-align: justify;
 }
 
+p span {
+	font-family: monospace;
+}
+
 blockquote {
 	margin-right: 0;
 	font-style: italic;
@@ -45,7 +49,7 @@ input[type='submit'] {
 	margin-left: 30%;
 }
 
-#foot {
+form, #foot {
 	margin-top: 1em;
 	border-top: thin solid #333;
 }
