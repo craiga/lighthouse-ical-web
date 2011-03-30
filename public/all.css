@@ -19,6 +19,7 @@ body {
 
 p, blockquote {
 	text-align: justify;
+	overflow-x: auto;
 }
 
 p span {
