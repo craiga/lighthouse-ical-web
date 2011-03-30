@@ -1,1 +1,6 @@
-Eventually this will be the code for a little web site which serves up Lighthouse milestones in iCal format. [See it in action at http://lighthouse-ical.heroku.com/.](http://lighthouse-ical.heroku.com/)
+Code for a little web site which serves up Lighthouse milestones in iCal format. [See it in action at http://lighthouse-ical.craiga.id.au/.](http://lighthouse-ical.craiga.id.au/)
+
+Run it yourself
+---------------
+
+This project contains everything you'll need to get it up and running on [Heroku](http://heroku.com/).
