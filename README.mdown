@@ -1,6 +1,13 @@
-Code for a little web site which serves up Lighthouse milestones in iCal format. [See it in action at http://lighthouse-ical.craiga.id.au/.](http://lighthouse-ical.craiga.id.au/)
+Code for a little web site which serves up [Lighthouse](http://lighthouseapp.com/) milestones in iCal format. [See it in action at http://lighthouse-ical.craiga.id.au/.](http://lighthouse-ical.craiga.id.au/)
 
 Run it yourself
 ---------------
 
 This project contains everything you'll need to get it up and running on [Heroku](http://heroku.com/).
+
+Acknowledgements
+----------------
+
+Powered by [Neils Meersschaert's `lighthouse-git` gem](http://github.com/nielsm/lighthouse-ical) and [Sinatra](http://www.sinatrarb.com/). Hosted on [Heroku](http://heroku.com/).
+
+&copy; 2011 Craig Anderson. See [LICENSE](http://github.com/craiga/lighthouse-ical-web/blob/master/LICENSE) for details.
