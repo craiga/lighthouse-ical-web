@@ -8,6 +8,6 @@ This project contains everything you'll need to get it up and running on [Heroku
 Acknowledgements
 ----------------
 
-Powered by [Neils Meersschaert's `lighthouse-git` gem](http://github.com/nielsm/lighthouse-ical) and [Sinatra](http://www.sinatrarb.com/). Hosted on [Heroku](http://heroku.com/).
+Powered by [Neils Meersschaert's `lighthouse-ical` gem](http://github.com/nielsm/lighthouse-ical) and [Sinatra](http://www.sinatrarb.com/). Hosted on [Heroku](http://heroku.com/).
 
 &copy; 2011 Craig Anderson. See [LICENSE](http://github.com/craiga/lighthouse-ical-web/blob/master/LICENSE) for details.
