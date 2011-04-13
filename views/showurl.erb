@@ -17,7 +17,7 @@
 </head>
 <body>
 	<h1>Your Lighthouse iCal feed</h1>
-	<p><a href="webcal://lighthouse-ical.heroku.com/<%= @params[:account] %>/<%= @params[:token] %>/<%= @params[:projectid] %>">Subscribe in iCal</a>,
+	<p><a href="webcal://<%= @request.host_with_port %>/<%= @params[:account] %>/<%= @params[:token] %>/<%= @params[:projectid] %>">Subscribe in iCal</a>,
 	   or use the following URL:</p>
 	<pre>http://<%= @request.host_with_port %>/<%= @params[:account] %>/<%= @params[:token] %>/<%= @params[:projectid] %></pre>
 	<div id="foot">
