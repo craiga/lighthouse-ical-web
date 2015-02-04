@@ -1,4 +1,4 @@
-Code for a little web site which serves up [Lighthouse](http://lighthouseapp.com/) milestones in iCal format. [See it in action at http://lighthouse-ical.craiga.id.au/.](http://lighthouse-ical.craiga.id.au/)
+Code for a little web site which serves up [Lighthouse](http://lighthouseapp.com/) milestones in iCal format.
 
 Run it yourself
 ---------------
